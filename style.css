@@ -1,9 +1,45 @@
-body {
+@font-face {
+    font-family: norse-bold;
+    src: url(fonts/webfontkit-20250118-095405/norse-bold-webfont.woff);
+}
+
+body > div {
     display: flex;
     flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+}
+
+.left-side {
+    height: 750px;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    padding: 300px;
+    background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.odin-logo {
+    height: 75px;
+    width: 75px;
+}
+
+.left-side-2 {
+    width: 375px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+}
+
+.left-side-2 > div {
+    color: white;
 }
 
 .right-side {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
 }
