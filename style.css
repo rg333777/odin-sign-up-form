@@ -21,12 +21,16 @@ body > div {
     background-size: cover;
 }
 
+.left-side-2{
+    color: white;
+}
+
 .odin-logo {
     height: 75px;
     width: 75px;
 }
 
-.left-side-2 {
+.left-side-1 {
     width: 375px;
     display: flex;
     flex-direction: row;
@@ -35,7 +39,7 @@ body > div {
     font-size: 48px;
 }
 
-.left-side-2 > div {
+.left-side-1 > div {
     color: white;
 }
 
