@@ -30,6 +30,9 @@ body {
     background-position: center;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
 }
 
 .left-side .odin-logo {
