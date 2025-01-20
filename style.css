@@ -13,6 +13,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -54,8 +55,15 @@ body {
 .right-side {
     height: 100%;
     width: 67%;
+    padding: 0 200px 0 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+}
+
+.upper-right {
+    font-size: 1.5rem;
+    font-weight: bold;
+    max-width: 700px;
 }
