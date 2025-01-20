@@ -11,6 +11,8 @@
 
 body {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -22,7 +24,26 @@ body {
 .left-side {
     height: 100%;
     width: 33%;
+    padding-top: 10%;
     background-image: url(./images/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
-    background-position: center
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-side .odin-logo {
+    height: 150px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.509);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'norse-bold', sans-serif;
+    font-size: 3rem;
+    color: white;
+}
+
+.odin-logo img {
+    height: 90%;
 }
