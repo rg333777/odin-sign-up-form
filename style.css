@@ -55,15 +55,87 @@ body {
 .right-side {
     height: 100%;
     width: 67%;
-    padding: 0 200px 0 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    background-color: whitesmoke;
+    gap: 50px;
 }
 
 .upper-right {
     font-size: 1.5rem;
     font-weight: bold;
-    max-width: 700px;
+    max-width: 725px;
+    margin-left: 50px;
 }
+
+form {
+    width: 100%;
+    background-color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 1px 5px 15px lightgray;
+}
+
+form div {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+form div p {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input {
+    width: 250px;
+    height: 32px;
+    border: solid 0.2px #E5E7EB;
+    border-radius: 5px;
+}
+
+label {
+    font-size: 0.75rem;
+    font-weight: 750;
+}
+
+input:focus {
+    outline-color: blue;
+    box-shadow: 1px 2px 5px lightgray;
+}
+
+input[type='password']:invalid {
+    outline-color: red;
+    box-shadow: 1px 2px 5px lightgray;
+}
+
+button {
+    height: 65px;
+    width: 225px;
+    margin-left: 50px;
+    background-color: olive;
+    text-align: center;
+    font-size: 1.25rem;
+    color: white;
+    font-weight: bold;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 2px 4px 10px lightgray;
+    cursor: pointer;
+}
+
+button + p {
+    margin-left: 50px;
+}
+
+span {
+    color: olive;
+    font-weight: bold;
+    cursor: pointer;
+}
+
