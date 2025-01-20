@@ -2,3 +2,27 @@
     font-family: norse-bold;
     src: url(fonts/webfontkit-20250118-095405/norse-bold-webfont.woff);
 }
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.left-side {
+    height: 100%;
+    width: 33%;
+    background-image: url(./images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    background-position: center
+}
