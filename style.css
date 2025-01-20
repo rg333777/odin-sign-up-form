@@ -97,6 +97,7 @@ input {
     height: 32px;
     border: solid 0.2px #E5E7EB;
     border-radius: 5px;
+    box-shadow: 1px 2px 5px lightgray;
 }
 
 label {
@@ -106,7 +107,6 @@ label {
 
 input:focus {
     outline-color: blue;
-    box-shadow: 1px 2px 5px lightgray;
 }
 
 input[type='password']:invalid {
